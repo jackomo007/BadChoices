@@ -42,6 +42,7 @@ class _StoryPageState extends State<StoryPage> {
               Expanded(
                 flex: 2,
                 child: FlatButton(
+                  padding: EdgeInsets.all(10.0),
                   onPressed: () {
                     //Choice 1 made by user.
                     setState(() {
@@ -65,6 +66,7 @@ class _StoryPageState extends State<StoryPage> {
                 child: Visibility(
                   visible: engine.buttonShouldBeVisible(),
                   child: FlatButton(
+                    padding: EdgeInsets.all(10.0),
                     onPressed: () {
                       //Choice 2 made by user.
                       setState(() {
